@@ -1,0 +1,330 @@
+body,
+html,
+head {
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    max-width: 100%;
+
+}
+
+
+
+
+
+
+/*HOT TIP FOR BACKGROUND IMAGES, USE../ AT START OF THE PATH */
+
+header {
+
+    background-image: url(../images/Movies.jpg);
+    background-size: contain;
+    padding-top: 1px;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+
+
+.centered-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -6.4%;
+    margin-top: -7px;
+    border: blue;
+}
+
+.imgheader {
+    background-image: url(../images/Heading.png);
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 50px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-size: 3%;
+    background-repeat: repeat-x;
+    animation: moveBackground 500s linear infinite;
+
+}
+
+.text-padding {
+    background-image: url(../images/Heading.png);
+    display: flex;
+    padding-bottom: 30px;
+    background-size: 3%;
+    background-repeat: repeat-x;
+    animation: moveBackground 500s linear infinite;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-padding2 {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.imgfeature2 {
+    background-image: url(../images/Seating.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    background-size: contain;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.imgfeature2 div {
+    order: 2;
+
+}
+
+.imgfeature3 {
+    background-image: url(../Images/Statistics.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+    background-size: contain;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.poster {
+    width: 85%;
+    height: auto;
+
+}
+
+div.poster {
+    background-size: 200%;
+}
+
+.movinglight {
+    background-image: url(../images/Heading.png);
+
+    display: flex;
+    padding: 10px 50px;
+    padding-bottom: 15px;
+    background-size: 20%;
+    background-repeat: repeat-x;
+    animation: moveBackground 200s linear infinite;
+
+}
+
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -10000% 0;
+    }
+}
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 130px 0;
+    padding: 0;
+    text-align: center;
+    box-shadow: -3px 10px 20px 0 rgba(0, 0, 0, 9);
+}
+
+
+
+.h2 {
+
+    margin: 180px 0;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+    grid-template-columns: 3fr;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 8%;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 10%;
+    text-transform: capitalize;
+    background: black;
+    box-shadow: -3px 10px 20px 0 rgba(0, 0, 0, 9);
+
+}
+
+
+
+div {
+    padding: 30px 50px;
+    color: #ffffff;
+    grid-template-columns: 3fr 1fr;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2px;
+    grid-gap: 2px;
+    border: 16px dotted #eebd68;
+    background-color: rgba(49, 136, 224, 0.9);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    overflow: auto;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 4%;
+    text-align: center;
+
+}
+
+.movie-statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    grid-gap: 2px;
+    border: 16px dotted #eebd68;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    text-align: center;
+
+}
+
+.movie-statistics div {
+
+    padding: 0 10px;
+    grid-gap: 2px;
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+
+.movie-section {
+    text-align: center;
+    /* Center the title */
+}
+
+.movie-data {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15%;
+    border: 16px outset #eebd68;
+    background: linear-gradient(#c2800e, #322104);
+    box-shadow: -3px 10px 20px 0 rgba(0, 0, 0, 9);
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 70;
+
+}
+
+.movie-data div {
+    padding: 0 10px;
+    grid-template-columns: 3fr;
+
+
+}
+
+
+.structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    margin-bottom: -5%;
+    border: rgb(255, 255, 255);
+    text-align: center;
+
+
+
+}
+
+
+footer {
+
+    background-image: url(../images/Movies.jpg);
+    background-size: 10%;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .imgfeature3,
+    .img-poster body {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+
+    }
+
+    /* Your CSS properties here */
+
+    .movie-container {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        gap: 4%;
+        overflow: auto;
+    }
+
+    .img-poster {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        padding-left: 10%;
+        overflow: auto;
+    }
+
+    .movie-data {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        grid-column-gap: 10%;
+        overflow: auto;
+        font-size: 16px;
+        /* Adjust as needed */
+        margin-right: 15px;
+        /* Adjust as needed */
+        margin-left: 15px;
+
+    }
+
+    .structure {
+
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
